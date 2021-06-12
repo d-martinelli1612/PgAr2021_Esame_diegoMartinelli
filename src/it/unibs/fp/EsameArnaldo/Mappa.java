@@ -3,9 +3,7 @@ package it.unibs.fp.EsameArnaldo;
 import it.unibs.fp.mylib.InputDati;
 
 import javax.xml.stream.XMLStreamException;
-import java.sql.SQLOutput;
 import java.util.ArrayList;
-import java.util.Map;
 
 public class Mappa {
 

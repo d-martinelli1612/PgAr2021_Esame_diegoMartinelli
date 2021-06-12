@@ -1,7 +1,6 @@
 package it.unibs.fp.EsameArnaldo;
 
 import java.util.ArrayList;
-import java.util.Map;
 
 public class Territorio {
 
