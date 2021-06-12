@@ -54,6 +54,9 @@ public class Mappa {
         }
     }
 
+
+    /**Avvia il processo di inserimento mosse, verifica la validita' delle mosse inserite ed esegue
+     * quelle che lo sono*/
     public void movimentiTurno(){
         ArrayList<Mossa> mosseTurno = Mossa.inserimentoMosse();
         Mossa mossaAttuale;
@@ -122,6 +125,11 @@ public class Mappa {
         }
     }
 
+    /**Verifica che:
+     * La truppa indicata sia del tipo corretto
+     * I territori di partenza e di arrivo esistano
+     * La destinazione sia confinante alla partenza
+     * La destinazione non sia territorio di mare*/
     private boolean sintassiCorretta(Mossa mossa){
         boolean partenzaPresente = false;
         boolean destinazionePresente = false;
