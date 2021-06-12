@@ -1,5 +1,9 @@
 package it.unibs.fp.EsameArnaldo;
 
+import it.unibs.fp.EsameArnaldo.Armata;
+import it.unibs.fp.EsameArnaldo.Mappa;
+import it.unibs.fp.EsameArnaldo.Territorio;
+
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
