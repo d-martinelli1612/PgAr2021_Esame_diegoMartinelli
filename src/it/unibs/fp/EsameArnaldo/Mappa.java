@@ -112,7 +112,7 @@ public class Mappa {
 
             //verifica che non vi siano truppe
             if (this.territori.get(indiceDestinazione).getArmata().getTipo().equals("assente") &&
-                !this.territori.get(indicePartenza).getArmata().isMosso()){
+                    !this.territori.get(indicePartenza).getArmata().isMosso()){
 
                 //segna che la truppa è stata mossa
                 this.territori.get(indicePartenza).getArmata().setMosso(true);
