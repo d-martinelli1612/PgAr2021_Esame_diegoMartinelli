@@ -27,7 +27,7 @@ public class LettoreXML {
             System.out.println(e.getMessage());
         }
 
-        while (xmlr.hasNext()){
+        while(xmlr.hasNext()){
             switch (xmlr.getEventType()){
                 case XMLStreamConstants.START_ELEMENT:
                     if (xmlr.getLocalName().equals("nation")){
